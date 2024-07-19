@@ -1,2 +1,2 @@
-# Estudo-git-DIO
-primeira lição na DIO
+# Primeiro desafio da DIO: git/github 
+primeira lição é construir o primeiro repositório
