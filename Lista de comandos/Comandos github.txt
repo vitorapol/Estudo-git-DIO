@@ -1,0 +1,62 @@
+Configuração Inicial
+--------------------
+1. Configurar usuário e e-mail
+   git config --global user.name "Seu Nome"
+   git config --global user.email "seuemail@example.com"
+
+Comandos Básicos do Git
+-----------------------
+2. Criar um novo repositório
+   git init
+
+3. Clonar um repositório existente
+   git clone <url-do-repositorio>
+
+4. Verificar o status do repositório
+   git status
+
+5. Adicionar arquivos ao índice (staging area)
+   git add <nome-do-arquivo>
+   git add .  # Adiciona todos os arquivos modificados
+
+6. Commitar mudanças
+   git commit -m "Mensagem do commit"
+
+7. Visualizar o histórico de commits
+   git log
+
+8. Comparar mudanças
+   git diff
+
+Trabalhando com Branches
+------------------------
+9. Criar uma nova branch
+   git branch <nome-da-branch>
+
+10. Trocar para uma branch
+    git checkout <nome-da-branch>
+
+11. Criar e trocar para uma nova branch
+    git checkout -b <nome-da-branch>
+
+12. Mesclar uma branch com a branch atual
+    git merge <nome-da-branch>
+
+13. Excluir uma branch
+    git branch -d <nome-da-branch>
+
+Repositórios Remotos
+--------------------
+14. Adicionar um repositório remoto
+    git remote add origin <url-do-repositorio>
+
+15. Listar repositórios remotos
+    git remote -v
+
+16. Enviar mudanças para o repositório remoto
+    git push origin <nome-da-branch>
+
+17. Buscar mudanças do repositório remoto
+    git pull
+
+18. Atualizar referências locais com o repositório r
